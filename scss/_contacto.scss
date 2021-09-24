@@ -1,0 +1,35 @@
+/*html contacto */
+
+
+.infoContacto {
+    background-color: rgb(80, 80, 80); 
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+        h2{
+            font-size: 300%;
+            line-height: 1.3;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            font-style: none;
+            font-weight: 700;
+            text-align: left;
+        }
+        form{
+            font-size: 120%;
+            line-height: 1.3;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            font-style: none;
+            font-weight: 400;
+            text-align: left;
+        }
+}
+.mapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
