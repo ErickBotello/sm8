@@ -109,6 +109,10 @@
     .ventajas p{
         font-size: 5rem;
     }
+
+    .historia{
+        height: 800px;
+    }
     .textoNosotros{
     width: 100%;
     padding: 1rem;
@@ -117,6 +121,7 @@
     
     .textoNosotros h2{
         font-size: 2.6rem;
+        text-align: center;
     }
     .historia h3 {
         font-size: 2rem;
@@ -128,19 +133,20 @@
         font-size: 1rem;
     }
     .certificados {
-        height: 240px;
+        height: 250px;
         flex-direction: column;
+        width: 100%;
     }
     .textoCertificados{
-        padding: 1rem;
-        width: 80%;
+        padding-right: 20rem;
+        width: 100%;
         text-align: center;
     }
     .certificadosNombres {
         width: 80%;
         align-items: center;
         justify-content: space-evenly;
-        padding: 1rem;
+        padding: 0rem;
         h3{
             font-size: 1rem;
         }
@@ -259,6 +265,9 @@
     }
     .mapa iframe{
         width: 500px;
+    }
+    .historia{
+        height: 900px;
     }
     .certificados{
         height: 280px;
@@ -396,6 +405,13 @@
     .textoNosotros h2{
         font-size: 2rem;
     }
+    .historia .textoNosotros{
+        width: 100%;
+        text-align: center;
+    }
+    .historia .ventajas{
+        width: 100%;
+    }
     .historia h3 {
         font-size: 1.3rem;
     }
@@ -413,6 +429,10 @@
         flex-direction: column;
         padding: 0.5rem;
     }
+    .certificados .textoCertificados{
+        width: 100%;
+        text-align: center;
+    }
     .textoCertificados{
         padding: 0;
         width: 100%;
@@ -424,8 +444,8 @@
     .textoCertificados p{
         font-size: 1rem;
     }
-    .certificadosNombres {
-        width: 100%;
+    .certificados .certificadosNombres {
+        width: 40%;
         align-items: center;
         justify-content: space-evenly;
         padding: 0;
@@ -478,7 +498,7 @@
     }
 
     footer{
-        height: 350px;
+        height: 400px;
         width: 100%;
     }
     .partesFooter{
@@ -486,7 +506,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: flex-start;
-        height: 300px;
+        height: 280px;
     }
     footer nav ul li a {
         text-decoration: none;

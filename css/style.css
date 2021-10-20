@@ -526,7 +526,6 @@ footer h6 {
 .certificados .textoCertificados {
   width: 40%;
   padding: 1rem;
-  padding-left: 20rem;
   text-align: left;
   background-color: #505050;
 }
@@ -545,7 +544,6 @@ footer h6 {
       -ms-flex-align: center;
           align-items: center;
   background-color: #505050;
-  padding-right: 20rem;
 }
 
 .certificados .certificadosNombres div {
@@ -869,6 +867,9 @@ footer h6 {
   .ventajas p {
     font-size: 5rem;
   }
+  .historia {
+    height: 800px;
+  }
   .textoNosotros {
     width: 100%;
     padding: 1rem;
@@ -876,6 +877,7 @@ footer h6 {
   }
   .textoNosotros h2 {
     font-size: 2.6rem;
+    text-align: center;
   }
   .historia h3 {
     font-size: 2rem;
@@ -887,15 +889,16 @@ footer h6 {
     font-size: 1rem;
   }
   .certificados {
-    height: 240px;
+    height: 250px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 100%;
   }
   .textoCertificados {
-    padding: 1rem;
-    width: 80%;
+    padding-right: 20rem;
+    width: 100%;
     text-align: center;
   }
   .certificadosNombres {
@@ -906,7 +909,7 @@ footer h6 {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    padding: 1rem;
+    padding: 0rem;
   }
   .certificadosNombres h3 {
     font-size: 1rem;
@@ -1028,6 +1031,9 @@ footer h6 {
   }
   .mapa iframe {
     width: 500px;
+  }
+  .historia {
+    height: 900px;
   }
   .certificados {
     height: 280px;
@@ -1176,6 +1182,13 @@ footer h6 {
   .textoNosotros h2 {
     font-size: 2rem;
   }
+  .historia .textoNosotros {
+    width: 100%;
+    text-align: center;
+  }
+  .historia .ventajas {
+    width: 100%;
+  }
   .historia h3 {
     font-size: 1.3rem;
   }
@@ -1196,6 +1209,10 @@ footer h6 {
             flex-direction: column;
     padding: 0.5rem;
   }
+  .certificados .textoCertificados {
+    width: 100%;
+    text-align: center;
+  }
   .textoCertificados {
     padding: 0;
     width: 100%;
@@ -1207,8 +1224,8 @@ footer h6 {
   .textoCertificados p {
     font-size: 1rem;
   }
-  .certificadosNombres {
-    width: 100%;
+  .certificados .certificadosNombres {
+    width: 40%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1266,7 +1283,7 @@ footer h6 {
     width: 300px;
   }
   footer {
-    height: 350px;
+    height: 400px;
     width: 100%;
   }
   .partesFooter {
@@ -1280,7 +1297,7 @@ footer h6 {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    height: 300px;
+    height: 280px;
   }
   footer nav ul li a {
     text-decoration: none;
