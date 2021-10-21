@@ -57,6 +57,13 @@ body section tr {
   background-color: yellow;
 }
 
+.header #navbarNav {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding-right: 4rem;
+}
+
 .botonWhatsApp img {
   width: 70px;
   position: fixed;
